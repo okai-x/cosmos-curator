@@ -33,6 +33,7 @@ from cosmos_curator.next.recipes.multimodal_embedding.pipeline_kind import MULTI
 from cosmos_curator.next.recipes.multimodal_split.pipeline_kind import MULTIMODAL_SPLIT_KIND
 from cosmos_curator.next.recipes.robot_action_caption.pipeline_kind import ROBOT_ACTION_CAPTION_KIND
 from cosmos_curator.next.recipes.robot_action_split.pipeline_kind import ROBOT_ACTION_SPLIT_KIND
+from cosmos_curator.next.recipes.video2scene_build.pipeline_kind import VIDEO2SCENE_BUILD_KIND
 from cosmos_curator.next.recipes.video_caption.pipeline_kind import VIDEO_CAPTION_KIND
 from cosmos_curator.next.recipes.video_cut.pipeline_kind import VIDEO_CUT_KIND
 from cosmos_curator.next.recipes.video_embed.pipeline_kind import VIDEO_EMBED_KIND
@@ -51,6 +52,7 @@ BUILTIN_PIPELINE_KINDS = PipelineKindRegistry(
         MULTIMODAL_CAPTION_KIND,
         MULTIMODAL_EMBEDDING_KIND,
         MULTIMODAL_SPLIT_KIND,
+        VIDEO2SCENE_BUILD_KIND,
         VIDEO_CAPTION_KIND,
         VIDEO_CUT_KIND,
         VIDEO_EMBED_KIND,
