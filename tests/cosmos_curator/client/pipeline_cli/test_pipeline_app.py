@@ -225,7 +225,7 @@ def test_pipeline_template_rejects_unknown_kind_as_json() -> None:
             "caption_judge, curate, data-integrity, embeddings, mp4-index, multimodal-caption, multimodal-embedding, "
             "multimodal-split, "
             "robot-action-caption, robot-action-split, video-caption, video-cut, "
-            "video-embed, video-transcode, video_split"
+            "video-embed, video-transcode, video2scene-build, video_split"
         ),
     }
 

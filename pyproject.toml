@@ -141,7 +141,7 @@ warn_unused_ignores = false
 disable_error_code = ["override"]
 files = ["cosmos_curator"]
 exclude = [
-    "build/",
+    "^build/",
     "dist/",
     "cosmos-xenna/",
     "cosmos_curator/models/internvideo2_multi_modality/",
